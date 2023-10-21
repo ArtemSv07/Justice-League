@@ -1,0 +1,43 @@
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex {
+  display: flex;
+}
+.header-div {
+  justify-content: space-between;
+}
+.header-list-item:not(:last-child) {
+  margin-right: 54px;
+}
+.header-list-item:nth-child(3) {
+  margin-right: 53px;
+}
+.header-icon-list {
+  gap: 75px;
+}

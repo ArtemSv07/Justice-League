@@ -1,79 +1,145 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justice League</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&family=Marcellus&family=Mulish:wght@400;600;700;800&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href="./index.html" class="header-logo"><span class="header-logo_m">M </span>box</a>
+      <div class="container flex header-div">
+        <a href="./index.html" class="header-logo"
+          ><span class="header-logo_m">M </span>box</a
+        >
         <nav class="header-nav">
-            <ul class="header-nav-list">
+          <ul class="header-nav-list flex">
+            <li class="header-list-item">
+              <a class="header-list-link" href="">Home</a>
+            </li>
 
-                <li class="header-list-item">
-                    <a class="header-list-link" href="">Home</a>
-                </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="">TV Shows</a>
+            </li>
 
-                <li class="header-list-item">
-                    <a class="header-list-link" href="">TV Shows</a>
-                </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="">Movies</a>
+            </li>
 
-                <li class="header-list-item">
-                    <a class="header-list-link" href="">Movies</a>
-                </li>
-
-                <li class="header-list-item">
-                    <a class="header-list-link" href="">Series</a>
-                </li>
-
-            </ul>
+            <li class="header-list-item">
+              <a class="header-list-link" href="">Series</a>
+            </li>
+          </ul>
         </nav>
 
-        <ul class="header-icon-list">
-            <li class="header-icon-item">
-                <p>icon</p>
-            </li>
-            <li class="header-icon-item">
-                <p>icon</p>
-            </li>
-            <li class="header-icon-item">
-                <p>icon</p>
-            </li>
+        <ul class="header-icon-list flex">
+          <li class="header-icon-item">
+            <p>icon</p>
+          </li>
+          <li class="header-icon-item">
+            <p>icon</p>
+          </li>
+          <li class="header-icon-item">
+            <p>icon</p>
+          </li>
         </ul>
+      </div>
     </header>
     <main>
-        <section class="hero">
-            <h1 class="hero-title">Zack Znyder's Justice League</h1>
-            <ul class="hero-list">
-                <li class="hero-list-item">2021</li>
-                <li class="hero-list-item">18+</li>
-                <li class="hero-list-item">4h 2min</li>
-                <li class="hero-list-item">8.8 &#x2605;</li>
-            </ul>
-            <p class="hero-text"></p>
-            <ul class="hero-button-list">
-                <li class="hero-button-item"><button type="button" class="hero-button">&#10148; Watch</button></li>
-                <li class="hero-button-item"><button type="button" class="hero-button-bg">More information</button></li>
-            </ul>
-
-        </section>
-        <section class="tvShows">
-            <h2 class="tvShows-title">Trending TV Shows</h2>
-            <ul class="tvShows-list">
-                <li class="tvShows-list-item"><img src="./images/img1.jpg" alt="tvShows" width="206" height="309"></li>
-                <li class="tvShows-list-item"><img src="./images/img2.jpg" alt="tvShows" width="206" height="309"></li>
-                <li class="tvShows-list-item"><img src="./images/img3.jpg" alt="tvShows" width="206" height="309"></li>
-                <li class="tvShows-list-item"><img src="./images/img4.jpg" alt="tvShows" width="206" height="309"></li>
-                <li class="tvShows-list-item"><img src="./images/img5.jpg" alt="tvShows" width="206" height="309"></li>
-                <li class="tvShows-list-item"><img src="./images/img6.jpg" alt="tvShows" width="206" height="309"></li>
-            </ul>
-        </section>
+      <section class="hero">
+        <h1 class="hero-title">Zack Znyder's Justice League</h1>
+        <ul class="hero-list">
+          <li class="hero-list-item">2021</li>
+          <li class="hero-list-item">18+</li>
+          <li class="hero-list-item">4h 2min</li>
+          <li class="hero-list-item">8.8 &#x2605;</li>
+        </ul>
+        <p class="hero-text"></p>
+        <ul class="hero-button-list">
+          <li class="hero-button-item">
+            <button type="button" class="hero-button">&#10148; Watch</button>
+          </li>
+          <li class="hero-button-item">
+            <button type="button" class="hero-button-bg">
+              More information
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="tvShows">
+        <h2 class="tvShows-title">Trending TV Shows</h2>
+        <ul class="tvShows-list">
+          <li class="tvShows-list-item">
+            <img
+              src="./images/img1.jpg"
+              alt="tvShows"
+              width="206"
+              height="309"
+            />
+          </li>
+          <li class="tvShows-list-item">
+            <img
+              src="./images/img2.jpg"
+              alt="tvShows"
+              width="206"
+              height="309"
+            />
+          </li>
+          <li class="tvShows-list-item">
+            <img
+              src="./images/img3.jpg"
+              alt="tvShows"
+              width="206"
+              height="309"
+            />
+          </li>
+          <li class="tvShows-list-item">
+            <img
+              src="./images/img4.jpg"
+              alt="tvShows"
+              width="206"
+              height="309"
+            />
+          </li>
+          <li class="tvShows-list-item">
+            <img
+              src="./images/img5.jpg"
+              alt="tvShows"
+              width="206"
+              height="309"
+            />
+          </li>
+          <li class="tvShows-list-item">
+            <img
+              src="./images/img6.jpg"
+              alt="tvShows"
+              width="206"
+              height="309"
+            />
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
-        
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
