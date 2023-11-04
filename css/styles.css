@@ -51,6 +51,8 @@ a {
 }
 .header-icon-list {
   gap: 75px;
+  align-items: center;
+  
 }
 
 .header-logo {
@@ -80,3 +82,5 @@ a {
   background: linear-gradient(black, black) padding-box,
     linear-gradient(132.88deg, #326cff 3.44%, #26fff2 100%) border-box;
 }
+
+
