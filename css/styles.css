@@ -52,7 +52,6 @@ a {
 .header-icon-list {
   gap: 75px;
   align-items: center;
-  
 }
 
 .header-logo {
@@ -83,4 +82,15 @@ a {
     linear-gradient(132.88deg, #326cff 3.44%, #26fff2 100%) border-box;
 }
 
+.hero-title {
+  animation: text-blur-out 2.5s linear 0.5s infinite alternate both;
+}
 
+@keyframes text-blur-out {
+  0% {
+    filter: blur(0.01);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+}
